@@ -353,12 +353,7 @@ void screenSaver(){
     }
     display.setTextSize(2);
     display.setTextColor(WHITE);
-/*    
-    display.setCursor(12,0);
-    display.print("HenryTown");
-    display.setCursor(0,16);
-    display.print("Freight");
-*/
+
     display.setCursor(14,0);
     display.print("Shelly");
     display.setCursor(2,16);
@@ -387,8 +382,4 @@ void screenSaver(){
     while(timer > timeout){
       display.startscrollleft(0x00, 0x0F);
     }
-    
-//    lcd.print(" L.C.S. of M.E ");
-//    lcd.print("  Mundelein, IL");
 }
-
